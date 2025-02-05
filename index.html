@@ -1,0 +1,46 @@
+{% load static %}
+<html>
+<head>
+<title>Farming</title>
+<meta http-equiv="-content-type" content="text/html; charset=utf-8" />
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+  <div class="main_resize">
+    <div class="header">
+      <div class="logo">
+        <h1><span>Farming Made Easy using Machine Learning</span><small></small></h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content_bg">
+        <div class="menu_nav">
+          <ul>
+           <ul>
+      <li><a href="{% url 'index' %}">Home</a></li>
+      <li><a href="{% url 'AdminLogin' %}">Admin Login</a></li>
+      <li><a href="{% url 'FarmerLogin' %}">Farmer Login</a></li>
+	 <li><a href="{% url 'Signup' %}">New Farmer Signup </a></li>
+   </ul>
+          </ul>
+        </div>
+        <div class="hbg"><img src="{% static 'images/image.jpg' %}" width="1015" height="286" alt="" /></div>
+
+		{{ data }}
+
+       <p align="justify"><font size="6" style="font-family: 'Times New Roman', Times, serif" color="black">WELCOME-Empowering Farmers with Future Insights</p>
+<p align="justify"><font size="4" style="font-family: 'Times New Roman', Times, serif" color="black">
+  Agriculture is the backbone of the global economy, and farmers face the constant challenge of navigating market volatility. At this crop prediction website, we harness the power of technology and data analytics to provide accurate and reliable crop price predictions.
+
+  Our platform combines advanced machine learning algorithms, historical price trends, weather patterns, and market dynamics to help farmers, traders, and stakeholders make informed decisions. With real-time insights and future price projections, we aim to reduce uncertainty, optimize profits, and promote sustainable agricultural practices.
+  <p align="justify"><font size="4" style="font-family: 'Times New Roman', Times, serif" color="black"></font>
+  
+  Join us in revolutionizing the agricultural landscape, ensuring every decision counts for a better tomorrow.
+  <p align="justify"><font size="4" style="font-family: 'Times New Roman', Times, serif" color="black"></font>
+  With crop predtiction, agriculture meets innovation to create opportunities for growth and resilience. Explore our tools and make the future of farming work for you!
+</p>
+ 
+ 
+  </body>
+</html>
